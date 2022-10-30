@@ -1,0 +1,47 @@
+<div id="backdrop" *ngIf="selected" (click)="deselect()">
+
+</div>
+<dialog class="dialog" open *ngIf="selected">
+  <sc-unit class="full" [full]="true" [unit]="selected"></sc-unit>
+</dialog>
+
+<div class="content" role="main">
+
+    <div class="page">
+<!--      <nav>-->
+<!--        <ul class="tabs">-->
+<!--          <li [class]="{active: activeCatalog === cat }" *ngFor="let cat of DA.catalogs" (click)="setActiveCatalog(cat)">-->
+<!--            {{cat.id}}-->
+<!--            <span *ngIf="filters.length && filters.length">({{cat.count}})</span>-->
+<!--          </li>-->
+<!--        </ul>-->
+
+<!--        <ul class="vtl-options-filters">-->
+<!--          <template *ngFor="let ut of DA.unitTypes">-->
+<!--            <li [title]="ut.name || ut.id" [class]="{active: filters.includes(ut.id)}" (click)="toggleUnitTypeFilter(ut)">-->
+<!--&lt;!&ndash;              <img [src]="icon(ut)"/>&ndash;&gt;-->
+<!--            </li>-->
+<!--          </template>-->
+<!--        </ul>-->
+<!--        <ul class="vtl-options-filters">-->
+<!--          <template *ngFor="let race of DA.races">-->
+<!--            <li *ngIf="!race.race && race.used" [title]="race.name || race.id" [class]="{active: filters.includes(race.id)}" (click)="toggleRaceFilter(race)">-->
+<!--&lt;!&ndash;              <img [src]="icon(race)"/>&ndash;&gt;-->
+<!--            </li>-->
+<!--          </template>-->
+<!--        </ul>-->
+<!--      </nav>-->
+
+      <section class="units-section">
+
+<!--        <div *ngIf="activeUnit" class="sc-tooltip" [ngStyle]="{left: tooltipOffset.x + 'px' , top: tooltipOffset.y + 'px'}">-->
+<!--          <sc-unit [full]="true" [unit]="activeUnit"></sc-unit>-->
+<!--        </div>-->
+        <sc-unit (click)="select(unit)" [id]="'unit-'+unit.Id" (mouseleave)="hideTooltip()" (mouseenter)="setTooltip(unit, $event)" [unit]="unit"  *ngFor="let unit of units"></sc-unit>
+
+      </section>
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>

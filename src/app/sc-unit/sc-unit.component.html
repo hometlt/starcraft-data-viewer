@@ -1,0 +1,156 @@
+
+  <div class="unit-main-info" >
+    <span class="icon-holder" [title]="unit.Name">
+     <img *ngIf="unit.Icon" alt="" [src]="imagesRoot + unit.Icon">
+      <!--  <img *ngIf="!unit.icon && unit.race" alt="" [src]="'assets/buttons/'+unit.icon+'.png'">-->
+      <!--  <img *ngIf="!unit.icon && !unit.race" alt="" [src]="'assets/buttons/'+unit.icon+'.png'">-->
+    </span>
+
+    <span class="unit-statusbar" *ngIf="full && unit.LifeMax">
+      <span class="stats">
+          <div>
+              <span *ngIf="unit.ShieldsMax">{{unit.ShieldsMax}}</span>
+              <span *ngIf="unit.LifeMax">{{unit.LifeMax}}</span>
+          </div>
+            <span *ngIf="unit.EnergyMax">{{unit.EnergyMax}}</span>
+      </span>
+      <span class="shields" [style]="vitalityStyles(unit.ShieldsMax)"
+            *ngIf="unit.ShieldsMax && unit.ShieldsMax<=1000"></span>
+      <span class="shields more" [style]="vitalityMoreStyles(unit.ShieldsMax)"
+            *ngIf="unit.ShieldsMax && unit.ShieldsMax > 1000 && unit.ShieldsMax<=2000"></span>
+      <span class="shields evenmore" [style]="vitalityStylesEvenMoreStyles(unit.ShieldsMax)"
+            *ngIf="unit.ShieldsMax && unit.ShieldsMax > 2000"></span>
+      <span class="life" [style]="vitalityStyles(unit.LifeMax)" *ngIf="unit.LifeMax && unit.LifeMax<=1000"></span>
+      <span class="life more" [style]="vitalityMoreStyles(unit.LifeMax)"
+            *ngIf="unit.LifeMax &&unit.LifeMax > 1000 && unit.LifeMax<=2000"></span>
+      <span class="life evenmore" [style]="vitalityStylesEvenMoreStyles(unit.LifeMax)"
+            *ngIf="unit.LifeMax && unit.LifeMax > 2000"></span>
+      <span class="energy" [style]="energyStyles(unit.EnergyMax)" *ngIf="unit.EnergyMax"></span>
+    </span>
+
+    <div *ngIf="full">
+      <span  class="unit-cost" *ngIf="unit.CostResource">
+        <span class="resources-minerals" *ngIf="unit.CostResource.Minerals">{{unit.CostResource.Minerals}}</span>
+        <span class="resources-vespene" *ngIf="unit.CostResource.Vespene">{{unit.CostResource.Vespene}}</span>
+        <span class="resources-supply" *ngIf="unit.Food">{{unit.Food}}</span>
+      </span>
+
+      <span class="unit-combat">
+        <span class="unit-armor" *ngIf="unit.LifeMax"><span>{{unit.LifeArmor}}</span><img [src]="imagesRoot +  unit.LifeArmorIcon"/></span>
+        <span class="unit-shield" *ngIf="unit.ShieldsMax"><span>{{unit.ShieldArmor}}</span><img [src]="imagesRoot +  unit.ShieldArmorIcon"/></span>
+      </span>
+
+    </div>
+
+  </div>
+
+  <div *ngIf="full" class="unit-stats">
+    <table>
+      <tr><td>ID: </td><td><a target="_blank" href="{{dataRoot}}unit/{{unit.Id}}?beautify">{{unit.Id}}</a></td></tr>
+      <tr><td>Name: </td><td [innerHTML]="unit.Name | safeHtml"></td></tr>
+      <tr><td>Description: </td><td [innerHTML]="unit.Description | safeHtml"></td></tr>
+      <tr><td>Race: </td><td>{{unit.Race}}</td></tr>
+      <tr><td>ObjectFamily: </td><td>{{unit.ObjectFamily}}</td></tr>
+      <tr><td>ObjectType: </td><td>{{unit.ObjectType}}</td></tr>
+      <tr><td>CargoSize: </td><td>{{unit.CargoSize}}</td></tr>
+      <tr><td>Sight: </td><td>{{unit.Sight}}</td></tr>
+      <tr><td>Speed: </td><td>{{unit.Speed}}</td></tr>
+      <tr><td>Food: </td><td>{{unit.Food}}</td></tr>
+      <tr><td>Attributes: </td><td>{{unit.Attributes.join(",")}}</td></tr>
+      <tr>
+        <td>Weapons: </td>
+        <td>
+          <span *ngFor="let weapon of unit!.Weapons">
+            <span  *ngIf="weapon" class="icon-holder" [title]="weapon.Name || weapon.Id">
+                <img *ngIf="weapon.Icon" alt="" [src]="imagesRoot + weapon.Icon">
+            </span>
+            <span *ngIf="weapon" class="weapon-stats">
+              <span>Name: <span>{{weapon.Name}}</span></span>
+              <span>Targets: <span>{{weapon.TargetFilters}}</span></span>
+              <span>Range: <span>{{weapon.Range}}</span></span>
+              <span>Period: <span>{{weapon.Period}}</span></span>
+              <span>Count: <span>{{weapon.DisplayAttackCount}}</span></span>
+              <span *ngIf="weapon.DisplayEffect">
+                <span>Damage: <span>{{weapon.DisplayEffect.Amount}}</span></span>
+                <span *ngIf="weapon.DisplayEffect.AttributeBonus">
+                  <span *ngFor="let item of weapon.DisplayEffect.AttributeBonus | keyvalue">
+                    +{{item.value.value}} vs {{item.key}}
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Ablities: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Abilities" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Commands: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Commands" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Upgrades: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Upgrades" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Behaviors: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Behaviors" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Production: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Production" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Producers: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Producers" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>Requirements: </td>
+        <td>
+          <span *ngFor="let ability of unit!.Requirements" class="icon-holder" [title]="ability!.Name || ability!.Id">
+            <img *ngIf="ability!.Icon" alt="" [src]="imagesRoot + ability!.Icon">
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--    <div *ngIf="unit.Commands" class="cards">-->
+<!--      <table *ngFor="let command of unit.Commands">-->
+<!--        <tr *ngFor="let y of [0,1,2]">-->
+<!--          <td *ngFor="let x of [0,1,2,3,4]">-->
+<!--            &lt;!&ndash;          <div (click)="switchIcon(card[y][x])">&ndash;&gt;-->
+<!--            &lt;!&ndash;                      <span *ngIf="card[y][x]" [title]="card[y][x].at(-1).button">&ndash;&gt;-->
+<!--            &lt;!&ndash;                          <img [src]="icon(card[y][x].at(-1))" />&ndash;&gt;-->
+<!--            &lt;!&ndash;                      </span>&ndash;&gt;-->
+<!--            &lt;!&ndash;          </div>&ndash;&gt;-->
+<!--          </td>-->
+<!--        </tr>-->
+<!--      </table>-->
+<!--    </div>-->
+  </div>
