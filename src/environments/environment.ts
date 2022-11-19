@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  imagesRoot: "http://localhost:5000/icon/",
-  dataRoot: "http://localhost:5000/data/"
+  imagesRoot: "http://localhost:5001/icon/",
+  dataRoot: "http://localhost:5001/data/"
 };
 
 /*
