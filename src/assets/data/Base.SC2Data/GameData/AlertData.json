@@ -1,0 +1,423 @@
+{
+  "ReviveComplete": {
+    "class": "CAlert",
+    "Voice": "Unknown"
+  },
+  "SpiderMineComplete": {
+    "class": "CAlert",
+    "Sound": "Vulture_SpiderMinePlace"
+  },
+  "VictoryAlert": {
+    "class": "CAlert"
+  },
+  "DefeatAlert": {
+    "class": "CAlert"
+  },
+  "DrawAlert": {
+    "class": "CAlert"
+  },
+  "VictoryAlertCoop": {
+    "class": "CAlert",
+    "Sound": "Alert_Victory",
+    "parent": "VictoryAlert"
+  },
+  "DefeatAlertCoop": {
+    "class": "CAlert",
+    "Sound": "Alert_Defeat",
+    "parent": "DefeatAlert"
+  },
+  "DrawAlertCoop": {
+    "class": "CAlert",
+    "Sound": "Alert_Draw",
+    "parent": "DrawAlert"
+  },
+  "MorphComplete_Brutalisk": {
+    "class": "CAlert",
+    "Peripheral": "MorphComplete",
+    "Sound": "AbathurCommander_Brutalisk"
+  },
+  "MorphComplete_Leviathan": {
+    "class": "CAlert",
+    "Peripheral": "MorphComplete",
+    "Sound": "AbathurCommander_Leviathan"
+  },
+  "AttackTownAlly_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranAllyBaseUnderAttack",
+    "parent": "AttackTownAlly"
+  },
+  "AttackTown_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranBaseUnderAttack",
+    "parent": "AttackTown"
+  },
+  "AttackUnitAlly_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranAllyUnderAttack",
+    "parent": "AttackUnitAlly"
+  },
+  "AttackUnit_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranForcesUnderAttack",
+    "parent": "AttackUnit"
+  },
+  "CalldownLaunch_Gen": {
+    "class": "CAlert",
+    "QueueTime": "10.000000",
+    "Sound": "Alert_TerranCalldownLaunch",
+    "parent": "CalldownLaunch"
+  },
+  "ResearchComplete_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranResearchComplete",
+    "Peripheral": "ResearchComplete"
+  },
+  "ResourceExhausted_HighYieldMineral_Gen": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-highyieldmineral-protoss.dds",
+    "Sound": "Alert_TerranMineralsDepleted",
+    "Text": "Alert/Text/ResourceExhausted_HighYieldMineral_Gen",
+    "Tooltip": "Alert/Tooltip/ResourceExhausted_HighYieldMineral_Gen",
+    "parent": "ResourceExhausted_HighYieldMineral"
+  },
+  "ResourceExhausted_Mineral_Gen": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-mineral-protoss.dds",
+    "Sound": "Alert_TerranMineralsDepleted",
+    "parent": "ResourceExhausted_Mineral"
+  },
+  "ResourceExhausted_Vespene_Gen": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-gas-terran.dds",
+    "Sound": "Alert_TerranVespeneGeyserExhausted",
+    "parent": "ResourceExhausted_Vespene"
+  },
+  "TrainError_Gen": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\btn-building-genetron-Node.dds",
+    "parent": "TrainError"
+  },
+  "TrainWorkerComplete_Gen": {
+    "class": "CAlert",
+    "Flags": {
+      "Hide": "1"
+    },
+    "Voice": "Ready"
+  },
+  "UpgradeComplete_Gen": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranUpgradeComplete",
+    "Peripheral": "UpgradeComplete"
+  },
+  "AttackTownAlly_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergAllyBaseUnderAttack",
+    "parent": "AttackTownAlly"
+  },
+  "AttackTown_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergBaseUnderAttack",
+    "parent": "AttackTown"
+  },
+  "AttackUnitAlly_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergAllyUnderAttack",
+    "parent": "AttackUnitAlly"
+  },
+  "AttackUnit_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergForcesUnderAttack",
+    "parent": "AttackUnit"
+  },
+  "BuildComplete_Xayi": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "BuildingComplete"
+  },
+  "CalldownLaunch_Xayi": {
+    "class": "CAlert",
+    "QueueTime": "10.000000",
+    "Sound": "Alert_ZergCalldownLaunch",
+    "parent": "CalldownLaunch"
+  },
+  "ResearchComplete_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergReasearchComplete",
+    "Peripheral": "ResearchComplete"
+  },
+  "ResourceExhausted_HighYieldMineral_Xayi": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-highyieldmineral-zerg.dds",
+    "Sound": "Alert_ZergMineralsDepleted",
+    "Text": "Alert/Text/ResourceExhausted_HighYieldMineral_Xayi",
+    "Tooltip": "Alert/Tooltip/ResourceExhausted_HighYieldMineral_Xayi",
+    "parent": "ResourceExhausted_HighYieldMineral"
+  },
+  "ResourceExhausted_Mineral_Xayi": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-mineral-zerg.dds",
+    "Sound": "Alert_ZergMineralsDepleted",
+    "parent": "ResourceExhausted_Mineral"
+  },
+  "ResourceExhausted_Vespene_Xayi": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-gas-zerg.dds",
+    "Sound": "Alert_ZergVespeneGeyserExhausted",
+    "parent": "ResourceExhausted_Vespene"
+  },
+  "TrainComplete_Xayi": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "TrainComplete"
+  },
+  "TrainError_Xayi": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\btn-building-Xayid-feedingpool.dds",
+    "parent": "TrainError"
+  },
+  "TrainWorkerComplete_Xayi": {
+    "class": "CAlert",
+    "Flags": {
+      "Hide": "1"
+    },
+    "Voice": "Ready"
+  },
+  "UpgradeComplete_Xayi": {
+    "class": "CAlert",
+    "Sound": "Alert_ZergUpgradeComplete",
+    "Peripheral": "UpgradeComplete"
+  },
+  "AttackTownAlly_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossAllysBaseUnderAttack",
+    "parent": "AttackTownAlly"
+  },
+  "AttackTown_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossBaseUnderAttack",
+    "parent": "AttackTown"
+  },
+  "AttackUnitAlly_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossAllyUnderAttack",
+    "parent": "AttackUnitAlly"
+  },
+  "AttackUnit_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossForcesUnderAttack",
+    "parent": "AttackUnit"
+  },
+  "BuildComplete_Keir": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "BuildingComplete",
+    "Text": "Alert/Text/BuildComplete"
+  },
+  "CalldownLaunch_Keir": {
+    "class": "CAlert",
+    "QueueTime": "10.000000",
+    "Sound": "Alert_ProtossCalldownLaunch",
+    "parent": "CalldownLaunch"
+  },
+  "ResearchComplete_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossResearchComplete",
+    "Text": "Alert/Text/ResearchComplete",
+    "Peripheral": "ResearchComplete"
+  },
+  "ResourceExhausted_HighYieldMineral_Keir": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-highyieldmineral-keiron.dds",
+    "Sound": "Alert_ProtossMineralsDepleted",
+    "Tooltip": "Alert/Tooltip/ResourceExhausted_HighYieldMineral_Keir",
+    "parent": "ResourceExhausted_HighYieldMineral"
+  },
+  "ResourceExhausted_Mineral_Keir": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-mineral-keiron.dds",
+    "Sound": "Alert_ProtossMineralsDepleted",
+    "parent": "ResourceExhausted_Mineral"
+  },
+  "ResourceExhausted_Vespene_Keir": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-gas-keiron.dds",
+    "Sound": "Alert_ProtossVespeneGeyserExhausted",
+    "parent": "ResourceExhausted_Vespene"
+  },
+  "TrainComplete_Keir": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "TrainComplete",
+    "Text": "Alert/Text/TrainComplete"
+  },
+  "TrainError_Keir": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-supply-keiron.dds",
+    "parent": "TrainError"
+  },
+  "TrainWorkerComplete_Keir": {
+    "class": "CAlert",
+    "Flags": {
+      "Hide": "1"
+    },
+    "Text": "Alert/Text/TrainWorkerComplete",
+    "Voice": "Ready"
+  },
+  "UpgradeComplete_Keir": {
+    "class": "CAlert",
+    "Sound": "Alert_ProtossUpgradeComplete",
+    "Text": "Alert/Text/UpgradeComplete",
+    "Peripheral": "UpgradeComplete"
+  },
+  "WarpTrainComplete_Keir": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "WarpInComplete",
+    "Text": "Alert/Text/TrainComplete"
+  },
+  "AddOnComplete_ued": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranAddOnComplete_Terr",
+    "Text": "Alert/Text/AddOnComplete"
+  },
+  "AmmoComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready"
+  },
+  "AttackTownAlly_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\btn-command-attack.dds",
+    "Sound": "Alert_TerranAllyBaseUnderAttack2",
+    "Text": "Alert/Text/AttackTownAlly",
+    "Tooltip": "Alert/Tooltip/AttackTownAlly",
+    "Peripheral": "AllyBaseUnderAttack",
+    "parent": "Attack"
+  },
+  "AttackTown_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\btn-command-attack.dds",
+    "PingModel": "PingBaseAttack",
+    "Sound": "Alert_TerranBaseUnderAttack2",
+    "Text": "Alert/Text/AttackTown",
+    "Tooltip": "Alert/Tooltip/AttackTown",
+    "Voice": "Help",
+    "Peripheral": "SelfBaseUnderAttack",
+    "parent": "Attack"
+  },
+  "AttackUnitAlly_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\btn-command-attack.dds",
+    "Sound": "Alert_TerranAllyUnderAttack2",
+    "Text": "Alert/Text/AttackUnitAlly",
+    "Tooltip": "Alert/Tooltip/AttackUnitAlly",
+    "Peripheral": "AllyUnitUnderAttack",
+    "parent": "Attack"
+  },
+  "BuildComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "BuildingComplete"
+  },
+  "CalldownLaunch_ued": {
+    "class": "CAlert",
+    "Flags": {
+      "SoundFromLocalPlayer": "1"
+    },
+    "Icon": "Assets\\Textures\\btn-ability-terran-nuclearstrike.dds",
+    "QueueTime": "10.000000",
+    "Sound": "Alert_TerranCalldownLaunch2",
+    "Text": "Alert/Text/CalldownLaunch",
+    "Tooltip": "Alert/Tooltip/CalldownLaunch",
+    "Peripheral": "CalldownLaunch",
+    "parent": "Global"
+  },
+  "MergeComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready"
+  },
+  "MorphComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "MorphComplete"
+  },
+  "MothershipComplete_ued": {
+    "class": "CAlert",
+    "Sound": "TrainComplete_Terr",
+    "Text": "Alert/Text/TrainComplete_Terr",
+    "Tooltip": "Alert/Tooltip/TrainComplete_Terr",
+    "Voice": "Ready",
+    "Peripheral": "MothershipComplete"
+  },
+  "ResearchComplete_ued": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranResearchComplete2",
+    "Peripheral": "ResearchComplete"
+  },
+  "ResourceExhausted_HighYieldMineral_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-highyieldmineral-terran.dds",
+    "Sound": "Alert_TerranMineralsDepleted2",
+    "Peripheral": "ResourceExhausted"
+  },
+  "ResourceExhausted_Mineral_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-mineral-terran.dds",
+    "Sound": "Alert_TerranMineralsDepleted2",
+    "Text": "Alert/Text/ResourceExhausted_Mineral",
+    "Tooltip": "Alert/Tooltip/ResourceExhausted_Mineral",
+    "Peripheral": "ResourceExhausted"
+  },
+  "ResourceExhausted_Vespene_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-gas-terran.dds",
+    "Sound": "Alert_TerranVespeneGeyserExhausted2",
+    "Text": "Alert/Text/ResourceExhausted_Vespene",
+    "Tooltip": "Alert/Tooltip/ResourceExhausted_Vespene",
+    "Peripheral": "ResourceExhausted"
+  },
+  "ReviveError_ued": {
+    "class": "CAlert",
+    "Icon": "Assets\\Textures\\icon-supply-terran.dds",
+    "QueueTime": "4.000000",
+    "Sound": "ReviveError",
+    "Text": "Alert/Text/ReviveError",
+    "Tooltip": "Alert/Tooltip/ReviveError"
+  },
+  "SpecializeComplete_ued": {
+    "class": "CAlert",
+    "Peripheral": "SpecializationComplete"
+  },
+  "TrainComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "TrainComplete"
+  },
+  "TrainError_ued": {
+    "class": "CAlert",
+    "Display": {
+      "Self": "0"
+    },
+    "Icon": "Assets\\Textures\\icon-supply-terran.dds",
+    "QueueTime": "4.000000",
+    "Sound": "TrainError",
+    "Text": "Alert/Text/TrainError",
+    "Tooltip": "Alert/Tooltip/TrainError"
+  },
+  "TrainWorkerComplete_ued": {
+    "class": "CAlert",
+    "Flags": {
+      "Hide": "1"
+    },
+    "Voice": "Ready"
+  },
+  "UpgradeComplete_ued": {
+    "class": "CAlert",
+    "Sound": "Alert_TerranUpgradeComplete2",
+    "Peripheral": "UpgradeComplete"
+  },
+  "WarpTrainComplete_ued": {
+    "class": "CAlert",
+    "Voice": "Ready",
+    "Peripheral": "WarpInComplete"
+  }
+}

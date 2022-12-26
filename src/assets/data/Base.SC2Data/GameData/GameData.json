@@ -1,0 +1,8 @@
+{
+  "Dflt": {
+    "class": "CGame",
+    "TriggerLibs": {
+      "Id": "UPLR"
+    }
+  }
+}

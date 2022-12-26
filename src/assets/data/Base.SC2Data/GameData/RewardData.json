@@ -1,0 +1,121 @@
+{
+  "MengskCommanderVoicePack": {
+    "class": "CRewardVoicePack",
+    "ReplacementArray": [
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdNotEnoughFood",
+        "To": "TrooperMengsk_NeedMoreFood"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "Alert_TerranBuildError",
+        "To": "MengskA_BuildErrorTerran"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdCantBuildTooCloseToResources",
+        "To": "MengskA_BuildErrorTerran"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdCouldntReachTarget_Terr",
+        "To": "MengskA_BuildErrorTerran"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "SCV_CantBuildAlert",
+        "To": "MengskA_BuildErrorTerran"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdCantBuildLocationInvalid",
+        "To": "MengskA_BuildErrorTerran"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdCantBuildOnThat",
+        "To": "MengskA_NeedGeyserTerran"
+      }
+    ],
+    "parent": "VOICEPACKTERRAN"
+  },
+  "MengskCommanderVoicePack_MoraleLow": {
+    "class": "CRewardVoicePack",
+    "ReplacementArray": [
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdNotEnoughFood",
+        "To": "TrooperMengsk_NeedMoreFood"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_Attack",
+        "To": "TrooperMengsk_Attack_MoraleLow"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_What",
+        "To": "TrooperMengsk_What_MoraleLow"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_Yes",
+        "To": "TrooperMengsk_Yes_MoraleLow"
+      }
+    ],
+    "parent": "VOICEPACKTERRAN"
+  },
+  "MengskCommanderVoicePack_MoraleHigh": {
+    "class": "CRewardVoicePack",
+    "ReplacementArray": [
+      {
+        "Catalog": "Sound",
+        "From": "e_cmdNotEnoughFood",
+        "To": "TrooperMengsk_NeedMoreFood"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_Attack",
+        "To": "TrooperMengsk_Attack_MoraleHigh"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_What",
+        "To": "TrooperMengsk_What_MoraleHigh"
+      },
+      {
+        "Catalog": "Sound",
+        "From": "TrooperMengsk_Yes",
+        "To": "TrooperMengsk_Yes_MoraleHigh"
+      }
+    ],
+    "parent": "VOICEPACKTERRAN"
+  },
+  "ued": {
+    "class": "CRewardRaceBanner",
+    "Category": {
+      "File": "RaceBannerUED",
+      "Tag": "UEDn"
+    },
+    "Flags": {
+      "Allowed": "1"
+    },
+    "IconSlot": "100",
+    "IgnorePlayerRace": "1",
+    "Race": "UED",
+    "RaceBannerPack": "ued",
+    "Image1v1": "Assets/Textures/RaceBanner_Terran_IEMKatowice2019_1v1.dds",
+    "Image2v2": "Assets/Textures/RaceBanner_Terran_IEMKatowice2019_2v2.dds",
+    "Image3v3": "Assets/Textures/RaceBanner_Terran_IEMKatowice2019_3v3.dds",
+    "Image4v4": "Assets/Textures/RaceBanner_Terran_IEMKatowice2019_4v4.dds",
+    "parent": "RACEBANNERTERRAN"
+  },
+  "VoicePackUPL": {
+    "class": "CRewardVoicePack",
+    "parent": "VoicePackTerranBase",
+    "thumbnail": "UPL",
+    "voicepack": "UPL",
+    "prefix": "UPLAnnouncer"
+  }
+}

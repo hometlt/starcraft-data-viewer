@@ -1,0 +1,317 @@
+{
+  "TalentProtossLevel01": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel02": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel03": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel04": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel05": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel06": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel06",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel07": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel07",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel08": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel08",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel09": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel09",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel10": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel10",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel11": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel11",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel12": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel12",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel13": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel13",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel14": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel14",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossLevel15": {
+    "class": "CTalent",
+    "Face": "ButtonProtossLevel15",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery01": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery02": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery03": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery04": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery05": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentProtossMastery06": {
+    "class": "CTalent",
+    "Face": "ButtonProtossMastery06",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel01": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel02": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel03": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel04": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel05": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel06": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel06",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel07": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel07",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel08": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel08",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel09": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel09",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel10": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel10",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel11": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel11",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel12": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel12",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel13": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel13",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel14": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel14",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranLevel15": {
+    "class": "CTalent",
+    "Face": "ButtonTerranLevel15",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery01": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery02": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery03": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery04": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery05": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentTerranMastery06": {
+    "class": "CTalent",
+    "Face": "ButtonTerranMastery06",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel01": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel02": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel03": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel04": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel05": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel06": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel06",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel07": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel07",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel08": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel08",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel09": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel09",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel10": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel10",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel11": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel11",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel12": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel12",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel13": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel13",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel14": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel14",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergLevel15": {
+    "class": "CTalent",
+    "Face": "ButtonZergLevel15",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery01": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery01",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery02": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery02",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery03": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery03",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery04": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery04",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery05": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery05",
+    "parent": "CommanderDefaultSettings"
+  },
+  "TalentZergMastery06": {
+    "class": "CTalent",
+    "Face": "ButtonZergMastery06",
+    "parent": "CommanderDefaultSettings"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ued": {
+    "class": "CRaceBannerPack",
+    "Default": "1",
+    "RaceBannerArray": [
+      "RaceBanner_Terran_WarChest3"
+    ]
+  }
+}

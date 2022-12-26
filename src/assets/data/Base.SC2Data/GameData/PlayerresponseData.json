@@ -1,0 +1,32 @@
+{
+  "CommanderPrestigeFenixDataWebDamageReduction": {
+    "class": "CPlayerResponseUnitDamage",
+    "Location": "Attacker",
+    "CasterFilters": "-;Ally,Neutral,Enemy,Structure,Heroic,Worker,Missile,Destructible,Dead,Hidden",
+    "TargetFilters": "-;-",
+    "ModifyFraction": "0.5"
+  },
+  "CommanderPrestigeKaraxStructuresUnityBarrier": {
+    "class": "CPlayerResponseUnitBirth",
+    "Handled": "UnityBarrierAB",
+    "CasterFilters": "Structure;Ally,Neutral,Enemy,Missile,Destructible,Item,Dead,Hidden"
+  },
+  "CommanderPrestigeKaraxStructuresDefensiveChronoBoostTarget": {
+    "class": "CPlayerResponseUnitBirth",
+    "Handled": "CommanderPrestigeKaraxStructuresChronoBoostTarget",
+    "CasterFilters": "Structure;Ally,Neutral,Enemy,Missile,Destructible,Item,Dead,Hidden"
+  },
+  "CommanderPrestigeVorazunStasisDamageReduction": {
+    "class": "CPlayerResponseUnitDamage",
+    "Location": "Attacker",
+    "CasterFilters": "-;Ally,Neutral,Enemy,Structure,Worker,Missile,Destructible,Dead,Hidden",
+    "TargetFilters": "-;-",
+    "ModifyFraction": "0.75"
+  },
+  "CommanderPrestigeStetmannCombatBuff": {
+    "class": "CPlayerResponseUnitDeath",
+    "Location": "Attacker",
+    "Handled": "CommanderPrestigeStetmannCombatBuff@InitialSwitch",
+    "CasterFilters": "-;Heroic,Worker,Missile,Destructible,Dead,Hidden"
+  }
+}

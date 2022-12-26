@@ -1,0 +1,119 @@
+{
+  "CommanderFluff": {
+    "class": "CSoundExclusivity",
+    "Group": "2",
+    "InterruptFadeBlend": "Logarithmic",
+    "InterruptFade": [
+      {},
+      {
+        "Time": "1500",
+        "Volume": "-96.000000"
+      }
+    ],
+    "SuppressGroups": [
+      "3"
+    ],
+    "QTimeout": "50"
+  },
+  "AmbientFluff": {
+    "class": "CSoundExclusivity",
+    "Group": "3",
+    "InterruptFadeBlend": "Logarithmic",
+    "InterruptFade": [
+      {},
+      {
+        "Time": "1500",
+        "Volume": "-96.000000"
+      }
+    ]
+  },
+  "CriticalPath": {
+    "class": "CSoundExclusivity",
+    "Group": "1",
+    "SuppressGroups": [
+      "2",
+      "3"
+    ],
+    "Flags": {
+      "SupressionInterrupts": "1"
+    },
+    "Priority": "100.000000",
+    "CollideWithLower": "Stomp"
+  },
+  "MutatorAmonHeroBirthDialog": {
+    "class": "CSoundExclusivity",
+    "Group": "1",
+    "CollideWithLower": "Stomp",
+    "QTimeout": "10000",
+    "InterruptFade": [
+      {},
+      {
+        "Time": "1000",
+        "Volume": "-96.000000"
+      }
+    ],
+    "Priority": "50.000000",
+    "InterruptDelay": "250",
+    "QDelay": "1000"
+  },
+  "Dakrun": {
+    "class": "CSoundExclusivity",
+    "Group": "358",
+    "Priority": "100.000000",
+    "CollideWithLower": "Fail",
+    "CollideWithEqual": "Fail",
+    "CollideWithHigher": "Fail"
+  },
+  "DehakaCoop_UnitDX_Exclusivity": {
+    "class": "CSoundExclusivity",
+    "Group": "637",
+    "Priority": "100.000000",
+    "CollideWithLower": "Fail",
+    "CollideWithEqual": "Fail",
+    "CollideWithHigher": "Fail",
+    "QCollideWithLower": "Fail"
+  },
+  "NovaCoopDecoyReadyDialog": {
+    "class": "CSoundExclusivity",
+    "Group": "50",
+    "CollideWithLower": "Fail",
+    "CollideWithEqual": "Fail",
+    "CollideWithHigher": "Fail",
+    "QCollideWithLower": "Fail",
+    "InterruptFade": [
+      {},
+      {
+        "Time": "250",
+        "Volume": "-96.000000"
+      }
+    ]
+  },
+  "ZeratulHeroUnitVO": {
+    "class": "CSoundExclusivity",
+    "Group": "2019",
+    "CollideWithLower": "Fail",
+    "CollideWithEqual": "Fail",
+    "CollideWithHigher": "Fail"
+  },
+  "ZeratulCommanderFluff": {
+    "class": "CSoundExclusivity",
+    "Group": "2",
+    "QTimeout": "30",
+    "QDelay": "1",
+    "InterruptFadeBlend": "Logarithmic",
+    "InterruptFade": [
+      {},
+      {
+        "Time": "1500",
+        "Volume": "-96.000000"
+      }
+    ],
+    "Flags": {
+      "SupressionInterrupts": "1"
+    },
+    "SuppressGroups": [
+      "3",
+      "2019"
+    ]
+  }
+}

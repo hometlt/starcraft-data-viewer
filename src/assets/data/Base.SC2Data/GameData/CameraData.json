@@ -1,0 +1,68 @@
+{
+  "SOATargetingModeCamera": {
+    "class": "CCamera",
+    "ZoomTable": [
+      {
+        "Param": {
+          "Distance": {
+            "Modify": "0",
+            "Value": "0.000000"
+          },
+          "Pitch": {
+            "Modify": "0",
+            "Value": "0.000000"
+          }
+        }
+      },
+      {
+        "Param": {
+          "Distance": {
+            "Modify": "0",
+            "Value": "0.000000"
+          },
+          "Pitch": {
+            "Modify": "0",
+            "Value": "0.000000"
+          }
+        }
+      },
+      {
+        "Param": {
+          "Distance": {
+            "Modify": "0",
+            "Value": "0.000000"
+          },
+          "Pitch": {
+            "Modify": "0",
+            "Value": "0.000000"
+          }
+        }
+      },
+      {
+        "Param": {
+          "Distance": {
+            "Modify": "0",
+            "Value": "0.000000"
+          },
+          "Pitch": {
+            "Modify": "0",
+            "Value": "0.000000"
+          }
+        }
+      },
+      {
+        "Param": {
+          "Distance": {
+            "Modify": "0",
+            "Value": "0.000000"
+          },
+          "Pitch": {
+            "Modify": "0",
+            "Value": "0.000000"
+          }
+        }
+      }
+    ],
+    "parent": "Dflt"
+  }
+}

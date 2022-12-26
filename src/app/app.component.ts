@@ -1,7 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {SCDataService} from "./sc-data.service";
-import {Observable} from "rxjs";
-import {tap} from "rxjs/operators";
 
 @Component({
   selector: 'app-root',
@@ -19,13 +17,13 @@ export class AppComponent implements OnInit{
   activeUnit: SCUnit | null = null
   tooltipOffset: {x: number, y: number}
   selected: SCUnit | null;
+  constructor(private scdata: SCDataService) {
+  }
   select(unit: SCUnit){
     this.scdata.unit(unit.Id).subscribe(unit => this.selected = unit)
   }
   deselect(){
     this.selected = null;
-  }
-  constructor(private scdata: SCDataService) {
   }
   hideTooltip(){
     this.activeUnit = null

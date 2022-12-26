@@ -1,0 +1,18 @@
+{
+  "AC_DefaultObjective": {
+    "class": "CObjective",
+    "UserReference": [
+      "MissionObjective;AC_DefaultObjective"
+    ],
+    "default": "1"
+  },
+  "PlaceholderPrimary": {
+    "class": "CObjective",
+    "Type": "Primary",
+    "RequiredCount": "1"
+  },
+  "PlaceholderSecondary": {
+    "class": "CObjective",
+    "RequiredCount": "3"
+  }
+}

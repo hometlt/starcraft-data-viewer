@@ -1,0 +1,543 @@
+{
+  "GaryStetmann": {
+    "class": "CCharacter",
+    "Relevance": "Minor",
+    "Voice": "NaturalSoft Graham",
+    "Color": "255,158,158,158"
+  },
+  "Han": {
+    "class": "CCharacter",
+    "Gender": "Female",
+    "Race": "Terran",
+    "Voice": "ATT Crystal",
+    "Color": "255,168,0,168",
+    "Image": "Assets\\Textures\\smx1_hanportrait_static.dds",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:UnitVO",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/Han/Var1",
+        "Model": "SMX1MiraHanPortrait"
+      }
+    ]
+  },
+  "Tychus": {
+    "class": "CCharacter",
+    "Race": "Terran",
+    "Relevance": "Major",
+    "Color": "255,0,0,170",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing"
+        ],
+        "Name": "Character/Name/Tychus/Var1",
+        "Model": "TychusPortrait"
+      }
+    ]
+  },
+  "Alarak": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "ConversationType:Mission",
+          "ConversationType:UnitVO",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Model": "AlarakEx2Portrait",
+        "Actor": "AlarakEx2Portrait"
+      }
+    ]
+  },
+  "MengskCommander": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing"
+        ],
+        "Name": "Character/Name/ArcturusMengsk/Var1",
+        "Model": "MengskCommanderPortrait"
+      }
+    ],
+    "Race": "Terran"
+  },
+  "TrooperMengsk": {
+    "class": "CCharacter",
+    "Age": "40",
+    "Race": "Terran",
+    "Voice": "ATT Mike",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/TrooperMengsk/Var1",
+        "Model": "Trooper_Mengsk_COOP_Portrait"
+      }
+    ]
+  },
+  "StetmannCommander": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing"
+        ],
+        "Name": "Character/Name/BelshirScientist/Var1",
+        "Model": "StetmannCommanderPortrait",
+        "Actor": "StetmannCommanderPortrait"
+      }
+    ]
+  },
+  "ZeratulAC": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\zeratulportrait_static.dds",
+    "Voice": "ATT Mike",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/ZeratulAC/Var1",
+        "Model": "ZeratulVoidPortrait"
+      }
+    ]
+  },
+  "ACCybrosEscort": {
+    "class": "CCharacter",
+    "Gender": "Female",
+    "Image": "Assets\\Textures\\purifier_guardian_portrait_static.dds",
+    "Color": "255,255,128,0",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/ACCybrosEscort/Var1",
+        "Model": "Purifier_Guardian_Portrait"
+      }
+    ]
+  },
+  "ACJarbanMiner": {
+    "class": "CCharacter",
+    "Age": "35",
+    "Gender": "Female",
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\femalecivilian2portrait_static.dds",
+    "Color": "255,128,64,0",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/ACJarbanMiner/Var1",
+        "Model": "DebraGreenePortrait"
+      }
+    ]
+  },
+  "ACMeinhoffMedic": {
+    "class": "CCharacter",
+    "Age": "30",
+    "Gender": "Female",
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\LtMorales_Static.dds",
+    "Color": "255,0,128,64",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/ACMeinhoffMedic/Var1",
+        "Model": "LtMorales_Portrait"
+      }
+    ]
+  },
+  "ACPartAndParcel": {
+    "class": "CCharacter",
+    "Name": "Character/Name/AC_PartAndParcel",
+    "Gender": "Female",
+    "Race": "Terran",
+    "RaceCustom": "Character/Race/AC_PartAndParcel",
+    "Attitude": "Character/Attitude/AC_PartAndParcel",
+    "Timbre": "Character/Timbre/AC_PartAndParcel",
+    "Dialect": "Character/Dialect/AC_PartAndParcel",
+    "VoiceRef": "Character/VoiceRef/AC_PartAndParcel",
+    "Description": "Character/Description/AC_PartAndParcel",
+    "Image": "Assets\\Textures\\GeneralDavis_MoebiusLab_Portrait_Static.dds",
+    "Color": "255,128,0,64",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/AC_PartAndParcel/Var1",
+        "Model": "GeneralDavisMoebiusLabPortrait",
+        "Actor": "GeneralDavisMoebiusLabPortrait"
+      }
+    ]
+  },
+  "BelshirScientist": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing"
+        ],
+        "Name": "Character/Name/BelshirScientist/Var1",
+        "Model": "StetmannPortraitCoop"
+      }
+    ]
+  },
+  "Eradicator": {
+    "class": "CCharacter",
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\aresportrait_static.dds",
+    "Voice": "ATT Mike",
+    "Color": "255,128,0,0"
+  },
+  "ACAiurSiege": {
+    "class": "CCharacter",
+    "Name": "Character/Name/Lyrak",
+    "Age": "40",
+    "RaceCustom": "Character/Race/Lyrak",
+    "Attitude": "Character/Attitude/Lyrak",
+    "Timbre": "Character/Timbre/Lyrak",
+    "Dialect": "Character/Dialect/Lyrak",
+    "VoiceRef": "Character/VoiceRef/Lyrak",
+    "Description": "Character/Description/Lyrak",
+    "Image": "Assets\\Textures\\Lyrak_Portrait_Static.dds",
+    "Voice": "ATT Mike",
+    "Color": "255,0,0,128",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing",
+          "ConversationType:Pitch"
+        ],
+        "Name": "Character/Name/Lyrak/Var1",
+        "Model": "LyrakPortrait"
+      }
+    ]
+  },
+  "Stone": {
+    "class": "CCharacter",
+    "Voice": "NaturalSoft Ryan",
+    "Color": "255,0,0,160",
+    "Image": "Assets\\Textures\\ghostportraitex3_static.dds",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default",
+          "ConversationType:Mission",
+          "ConversationType:Briefing"
+        ],
+        "Name": "Character/Name/Stone/Var1",
+        "Model": "GhostPortrait"
+      }
+    ]
+  },
+  "DarrenRodgers": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\DarrenRodgers_Portrait_Static.tga",
+    "Unit": "DarrenRodgers",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "DarrenRodgersPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "InfantryRifle": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\InfantryRiflePortrait_Static.dds",
+    "Unit": "InfantryRifle",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "InfantryRiflePortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "MilesJenkins": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\MilesJenkins_Portrait_Static.tga",
+    "Unit": "MilesJenkins",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "MilesJenkinsPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "RusellPeters": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\RussellPeters_Portrait_Static.tga",
+    "Unit": "RusellPeters",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "RusellPetersPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "CARR": {
+    "class": "CCharacter",
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\CARRPortrait_Static.dds",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/CARR/Var1",
+        "Model": "CARRPortrait",
+        "Actor": "PortraitActor"
+      }
+    ],
+    "Unit": "CARR"
+  },
+  "AltonPeters": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\SargePeters_Portrait_Static.tga",
+    "Unit": "AltonPeters",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "AltonPetersPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "AltonPetersZ1": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\RileyJericoPortrait_Static.dds",
+    "Unit": "AltonPetersZ1",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "AltonPetersZ1Portrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "KatherineHalsey": {
+    "class": "CCharacter",
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\DrHalsey_Portrait_Static.tga",
+    "Unit": "KatherineHalsey",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/KatherineHalsey/Var1",
+        "Model": "KatherineHalseyPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "LillyRollins": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\LillyRollinsPortrait_Static.dds",
+    "Unit": "LillyRollins",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "LillyRollinsPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "MyraDavisOfficer": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\MyraDavisOfficerPortrait_Static.dds",
+    "Unit": "MyraDavisOfficer",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "MyraDavisOfficerPortrait",
+        "Actor": "MyraDavisPortrait"
+      }
+    ]
+  },
+  "MyraDavisRiotOfficer": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\MyraDavisRiotOfficerPortrait_Static.dds",
+    "Unit": "MyraDavisRiotOfficer",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "MyraDavisRiotOfficerPortrait",
+        "Actor": "MyraDavisPortrait"
+      }
+    ]
+  },
+  "RichardGideon": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\Gideon_Portrait_Static.tga",
+    "Unit": "RichardGideon",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "RichardGideonPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "RileyJerico": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/RileyJerico/Var1",
+        "Model": "RileyJericoPortrait",
+        "Actor": "PortraitActor"
+      }
+    ],
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\RileyJericoPortrait_Static.dds",
+    "Unit": "RileyJerico"
+  },
+  "TrevorRand": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\TrevorRandPortrait_Static.dds",
+    "Unit": "TrevorRand",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "TrevorRandPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "UPLScout": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\SCOUTCovOps_Portrait_Static.tga",
+    "Unit": "UPLScout",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "UPLScoutPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "UPLSpecOps": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\SpecOps_Portrait_Static.tga",
+    "Unit": "UPLSpecOps",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "UPLSpecOpsPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "Vaeregoth": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\VaeregothPortrait_Static.dds",
+    "Unit": "Vaeregoth",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "VaeregothPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  },
+  "WilliamGraves": {
+    "class": "CCharacter",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Name": "Character/Name/WilliamGraves/Var1",
+        "Model": "WilliamGravesPortrait",
+        "Actor": "PortraitActor"
+      }
+    ],
+    "Race": "Terran",
+    "Image": "Assets\\Textures\\WilliamGravesPortrait_Static.dds",
+    "Unit": "WilliamGraves"
+  },
+  "DeniseAllister": {
+    "class": "CCharacter",
+    "Image": "Assets\\Textures\\DeniseAllisterPortrait_Static.dds",
+    "Unit": "DeniseAllisterRiotOfficer",
+    "Variations": [
+      {
+        "DefaultCategories": [
+          "Default"
+        ],
+        "Model": "DeniseAllisterRiotOfficerPortrait",
+        "Actor": "PortraitActor"
+      }
+    ]
+  }
+}

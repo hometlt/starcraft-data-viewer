@@ -1,0 +1,72 @@
+{
+  "Ambience_WintersGate_LE": {
+    "class": "CSoundtrack",
+    "parent": "Ambience_Map"
+  },
+  "Ambience_KingsCove_Jungle_Quad": {
+    "class": "CSoundtrack",
+    "CueArray": [
+      {
+        "MasterLayer": {
+          "Sound": "Ambience_Aiur_Jungle_Quad"
+        }
+      }
+    ],
+    "parent": "Ambience_Map"
+  },
+  "Ambience_Leviathan_Mouth_Space": {
+    "class": "CSoundtrack",
+    "CueArray": [
+      {
+        "MasterLayer": {
+          "Sound": "Ambience_Leviathan_Mouth_Char03"
+        },
+        "SlaveLayers": [
+          {
+            "Sections": {
+              "Sound": "Set_Ambient_Space1_Loop"
+            }
+          }
+        ]
+      }
+    ],
+    "Select": "Shuffle",
+    "parent": "Ambience_Map"
+  },
+  "Music_GenLow": {
+    "class": "CSoundtrack",
+    "CueArray": [
+      {
+        "MasterLayer": {
+          "Sound": "Music_Genetron"
+        }
+      }
+    ],
+    "Delay": "120,180",
+    "parent": "Music"
+  },
+  "Music_XayiLow": {
+    "class": "CSoundtrack",
+    "CueArray": [
+      {
+        "MasterLayer": {
+          "Sound": "GameMusicXayid"
+        }
+      }
+    ],
+    "Delay": "120,180",
+    "parent": "Music"
+  },
+  "Music_KeirLow": {
+    "class": "CSoundtrack",
+    "CueArray": [
+      {
+        "MasterLayer": {
+          "Sound": "GameMusicKeir"
+        }
+      }
+    ],
+    "Delay": "120,180",
+    "parent": "Music"
+  }
+}

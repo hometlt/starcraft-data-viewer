@@ -1,0 +1,46 @@
+{
+  "Dehaka": {
+    "class": "CCommander",
+    "UserReference": "PlayerCommanders;ZergDehaka",
+    "ProductId": "0"
+  },
+  "Mengsk": {
+    "class": "CCommander",
+    "ConsoleSkin": "ConsoleTerran_Imperial",
+    "UserReference": "PlayerCommanders;TerranMengsk",
+    "ProductId": "0"
+  },
+  "Nova": {
+    "class": "CCommander",
+    "UserReference": "PlayerCommanders;TerranNova",
+    "ProductId": "0"
+  },
+  "Stetmann": {
+    "class": "CCommander",
+    "UserReference": "PlayerCommanders;ZergStetmann",
+    "ProductId": "0"
+  },
+  "Tychus": {
+    "class": "CCommander",
+    "UserReference": "PlayerCommanders;TerranTychus"
+  },
+  "Zeratul": {
+    "class": "CCommander",
+    "UserReference": "PlayerCommanders;ProtossZeratul"
+  },
+  "UED": {
+    "class": "CCommander",
+    "AttributeId": "UED",
+    "Race": "UED",
+    "ConsoleSkin": "ConsoleUED",
+    "Color": "255,255,255,0"
+  },
+  "NHbr": {
+    "class": "CCommander",
+    "Race": "NHbr",
+    "ConsoleSkin": "ConsoleProtoss_Ihanrii"
+  },
+  "DragonCommander": {
+    "class": "CCommander"
+  }
+}

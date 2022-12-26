@@ -1,0 +1,54 @@
+{
+  "Dehaka_MusicLevel15": {
+    "class": "CSoundMixSnapshot",
+    "Attack": "100",
+    "Hold": "3000",
+    "Release": "1500",
+    "Flags": {
+      "ApplyCategoryDuckingGlobal": "1"
+    },
+    "MixGlobal": {
+      "Music": "-30.000000"
+    }
+  },
+  "FenixCommander_SuitDialog": {
+    "class": "CSoundMixSnapshot",
+    "Attack": "250",
+    "Hold": "2500",
+    "Release": "1000",
+    "Flags": {
+      "ApplyCategoryDuckingGlobal": "1"
+    },
+    "MixGlobal": {
+      "Voice": "-96.000000"
+    }
+  },
+  "HHReaper_Land": {
+    "class": "CSoundMixSnapshot",
+    "Attack": "100",
+    "Hold": "900",
+    "Release": "250",
+    "Flags": {
+      "ApplyCategoryDuckingGlobal": "1"
+    },
+    "MixGlobal": {
+      "User27": "-50.000000"
+    },
+    "MixNonLocal": {
+      "User27": "-50.000000"
+    }
+  },
+  "HH_FleetCallDown_Music": {
+    "class": "CSoundMixSnapshot",
+    "Attack": "250",
+    "Hold": "17000",
+    "Release": "2000",
+    "Flags": {
+      "ApplyCategoryDuckingGlobal": "1",
+      "ApplyCategoryDuckingNonLocal": "1"
+    },
+    "MixGlobal": {
+      "Music": "-48.000000"
+    }
+  }
+}

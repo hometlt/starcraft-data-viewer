@@ -107,7 +107,7 @@ interface SCWeapon extends SCInstance<SCBehaviorBase>{
 
 interface SCEffectBase extends SCInstance<SCEffectBase>{}
 interface SCEffectDamage extends SCEffectBase{
-  "Amount": number,
+  "Amount": [{value: number}],
   "AttributeBonus": {[key:string]: {value: number}}
 
 }

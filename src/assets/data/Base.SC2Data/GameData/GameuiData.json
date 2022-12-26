@@ -1,0 +1,260 @@
+{
+  "Dflt": {
+    "class": "CGameUI",
+    "DisplayScaledTime": "1",
+    "ResourceArray": {
+      "Custom": {
+        "Icon": "Assets\\Textures\\icon-energy-zerg.dds"
+      }
+    },
+    "LoadingScreenHelp": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help51"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help52"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help53"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help54"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help55"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help56"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help57"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help58"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help59"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help60"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help61"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help62"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help63"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help64"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help65"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help66"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help67"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help68"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help69"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help70"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help71"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help72"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help73"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help74"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help75"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help76"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help77"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help78"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help79"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help80"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help81"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help82"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help83"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help84"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help85"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help86"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help87"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help88"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help89"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help90"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help91"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help92"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help93"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help94"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help95"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help96"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help97"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help98"
+      },
+      {
+        "Race": "Dragon",
+        "Text": "LoadingScreen/Help99"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "ConsoleProtoss_Classic": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleProtoss_Default": {
+    "class": "CConsoleSkin",
+    "Name": "ConsoleSkin/Name/ProtossDefault"
+  },
+  "ConsoleProtoss_Fenix": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleProtoss_Forged": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleProtoss_Ihanrii": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleProtoss_Nerazim": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_ArcadePurple": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_Classic": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_CovertOps": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_Default": {
+    "class": "CConsoleSkin",
+    "Name": "ConsoleSkin/Name/TerranDefault"
+  },
+  "ConsoleTerran_Silver": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_Swann": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Abathur": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Alliance": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_ArcadePurple": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Classic": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Default": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Dehaka": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Horde": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Mecha": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_RCZ": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Scourge": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Sentinels": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_XelNaga": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleZerg_Zagara": {
+    "class": "CConsoleSkin"
+  },
+  "ConsoleTerran_Nova": {
+    "class": "CConsoleSkin",
+    "SkinId": "SpecialForces"
+  },
+  "ConsoleUED": {
+    "class": "CConsoleSkin",
+    "Default": "1",
+    "ProductId": "999999999",
+    "RequiredReward": "ConsoleSkinTerranDefault",
+    "ReleaseDate": "10/31/2021",
+    "MinimapPanelModel": {
+      "Model": "Assets/UI/Console/ConsoleTerran_UED_00.m3"
+    },
+    "InfoPanelModel": {
+      "Model": "Assets/UI/Console/ConsoleTerran_UED_01.m3"
+    },
+    "CommandPanelModel": {
+      "Model": "Assets/UI/Console/ConsoleTerran_UED_02.m3"
+    },
+    "Light": "ConsoleTerran_Construction",
+    "ThumbnailImage": "assets/textures/sc2_ui_collection_huds_thumb_consoleterran_machined.dds",
+    "FeaturedImage": "assets/textures/sc2_ui_collection_huds_large_consoleterran_machined.dds",
+    "Description": "ConsoleSkin/Description/ConsoleUED",
+    "SkinId": "Evolved",
+    "parent": "ConsoleBase",
+    "assetname": "ConsoleTerran_Construction",
+    "race": "UED"
+  }
+}

@@ -34,9 +34,9 @@
 
       <section class="units-section">
 
-<!--        <div *ngIf="activeUnit" class="sc-tooltip" [ngStyle]="{left: tooltipOffset.x + 'px' , top: tooltipOffset.y + 'px'}">-->
-<!--          <sc-unit [full]="true" [unit]="activeUnit"></sc-unit>-->
-<!--        </div>-->
+        <div *ngIf="activeUnit" class="sc-tooltip" [style]="{left: tooltipOffset.x + 'px' , top: tooltipOffset.y + 'px'}">
+          <sc-unit [full]="true" [unit]="activeUnit"></sc-unit>
+        </div>
         <sc-unit (click)="select(unit)" [id]="'unit-'+unit.Id" (mouseleave)="hideTooltip()" (mouseenter)="setTooltip(unit, $event)" [unit]="unit"  *ngFor="let unit of units"></sc-unit>
 
       </section>

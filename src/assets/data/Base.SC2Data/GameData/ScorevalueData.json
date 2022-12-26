@@ -1,0 +1,16 @@
+{
+  "@NONE": {
+    "class": "CScoreValueCombine",
+    "parent": "AchievementScoreValue"
+  },
+  "DamageDealtbyContaminatedStrike": {
+    "class": "CScoreValueCustom",
+    "Type": "Fixed",
+    "parent": "BaseScoreValue"
+  },
+  "Devouroffcooldown": {
+    "class": "CScoreValueCustom",
+    "Type": "Fixed",
+    "parent": "AchievementScoreValue"
+  }
+}

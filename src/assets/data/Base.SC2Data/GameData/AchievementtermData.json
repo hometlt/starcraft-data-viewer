@@ -1,0 +1,78 @@
+{
+  "Combat_Mechanic_KillTransport": {
+    "class": "CAchievementTermCombine",
+    "ChildTable": [
+      "Combat_Mechanic_KillTransport_TransportOverlord"
+    ]
+  },
+  "Combat_Mechanic_KillTransport_TransportOverlord": {
+    "class": "CAchievementTermUnitDeath",
+    "Flags": {
+      "Notify": "0"
+    },
+    "Quantity": [
+      "1"
+    ],
+    "Unit": [
+      "OverlordTransport"
+    ],
+    "ValidatorArray": [
+      "IsTransportFull",
+      "TargetIsEnemy"
+    ]
+  },
+  "Combat_Spells_PhasePrism": {
+    "class": "CAchievementTermCombine",
+    "ChildTable": [
+      "Combat_Spells_PhasePrism_Adept"
+    ]
+  },
+  "Combat_Spells_PhasePrism_DarkTemplar": {
+    "class": "CAchievementTermAbilUse",
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  },
+  "Combat_Spells_PhasePrism_HighTemplar": {
+    "class": "CAchievementTermAbilUse",
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  },
+  "Combat_Spells_PhasePrism_Sentry": {
+    "class": "CAchievementTermAbilUse",
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  },
+  "Combat_Spells_PhasePrism_Stalker": {
+    "class": "CAchievementTermAbilUse",
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  },
+  "Combat_Spells_PhasePrism_Zealot": {
+    "class": "CAchievementTermAbilUse",
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  },
+  "Combat_Spells_Snipe": {
+    "class": "CAchievementTermEffectKilled",
+    "Effect": [
+      "ChannelSnipeInitialSet"
+    ]
+  },
+  "Combat_Spells_PhasePrism_Adept": {
+    "class": "CAchievementTermAbilUse",
+    "Flags": {
+      "Notify": "0"
+    },
+    "AbilCmd": [
+      "WarpGateTrain,Train7"
+    ],
+    "ValidatorArray": [
+      "IsPoweredByWarpPrismSet"
+    ]
+  }
+}

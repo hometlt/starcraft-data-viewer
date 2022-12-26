@@ -71,10 +71,10 @@
               <span>Period: <span>{{weapon.Period}}</span></span>
               <span>Count: <span>{{weapon.DisplayAttackCount}}</span></span>
               <span *ngIf="weapon.DisplayEffect">
-                <span>Damage: <span>{{weapon.DisplayEffect.Amount}}</span></span>
+                <span>Damage: <span>{{weapon.DisplayEffect.Amount[0].value}}</span></span>
                 <span *ngIf="weapon.DisplayEffect.AttributeBonus">
                   <span *ngFor="let item of weapon.DisplayEffect.AttributeBonus | keyvalue">
-                    +{{item.value.value}} vs {{item.key}}
+                    +{{item.value}} vs {{item.key}}
                   </span>
                 </span>
               </span>
